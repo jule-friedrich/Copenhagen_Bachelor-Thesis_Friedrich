@@ -1,0 +1,1 @@
+# Copenhagen_Bachelor-Thesis_Friedrich
