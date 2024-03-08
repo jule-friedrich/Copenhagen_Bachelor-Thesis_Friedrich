@@ -1,26 +1,32 @@
 # Evaluating the Impact of Bicycle Bridges on the X-Minute City concept in Copenhagen, Denmark
 
-This repository contains the Data and PDF of the Bachelor Thesis "Evaluating the Impact of Bicycle Bridges on the X-Minute City concept in Copenhagen, Denmark" written by Jule Friedrich (submitted March 2024)ta
+This repository contains the PDF and Data files that belong to the Bachelor Thesis "Evaluating the Impact of Bicycle Bridges on the X-Minute City concept in Copenhagen, Denmark" written by Jule Friedrich (submitted March 2024).
 
 ### Data sets
-The Datasets consist of the Input data, the Output data as well as the models used to accelerate computing processes.
+The Datasets consist of the Input Data, the Output Data as well as the Models used to accelerate computing processes.
+Datasets that consist of multiple Layers are packaged as gpkg file.
 
-The name codification is displayed in [_]
+[_] displays the name codifications of layer files.
 
-#### Input Data
-- Amenity Point Layers used to create isochrones, point layer _buildings_
-- bridge polygons layer
-- boundaries of the Copenhagen Municipality and the
-- area of interest
-- bounding box
-- Grid that consists of the Residential Cells within the Area of Interest
+#### Input Layers :
+**Input Data_Amenity Point Layers**
+- Amenity Point Layers used to create isochrones ["Amenity types"_Points]
   
-#### Findingss
--    (___Isochrone layers created for each amenity point layer for the thresholds 3,5,10 and 15 Minutes__)
--  amenity based impact zone layers that contain the counted _building_ points [Counted_amenity_threshold]
-- amenity based initial accesbility that contains the counted _building_ points 
-- (____the individual category grid layers___)
-- the final grid layers that display spatial distrbution of initial, topical, and increased accesibility. In these the individual category Grid Layers are contained. [Grid_Initial/Topical/Impact_Threshold]
+**Input Data General**
+- Area of Interest
+- Boundary Copenhagen Municipality
+- Bounding Box (used to extract amenity data)
+- bridge points [Bridges as Points]
+- bridge polygons layer [Bridges as Polygons]
+- point layer _buildings_ [Buildings as Points within Area of Interest]
+- grid that consists of the residential cells within the area of interest **Grid_ Residential Cells within Area of Interest**
+  
+#### Findings
+- amenity based impact zone layers that contain the counted _building_ points.  **Counted Building Points Layers_Impact**: [Counted_amenity_threshold]
+- amenity based initial accesbility that contains the counted _building_ points. **Counted Building Points Layers_Initial Access**: ["amenity type" No brigde min "threshold"]
+- the final grid layers that display spatial distribution of initial, topical, and impacted accesibility. In the attribute tables the individual category grid layers are contained. **Grids Impact/Spatial/Topical**: [Grid_Initial/Topical/Impact_Threshold]
+
+#### Models
 
 ### Data Description
 W - topical access ("With bridges")
