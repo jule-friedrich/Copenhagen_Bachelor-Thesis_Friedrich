@@ -1,0 +1,2141 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="ORS Tools:isochrones_from_layer_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="320"/>
+        <Option name="component_pos_y" type="double" value="115"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 3 min with bridge"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="496"/>
+      <Option name="component_pos_y" type="double" value="89.91666666666666"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_1"/>
+      <Option name="outputs" type="Map">
+        <Option name="3 Min Iso with bridge" type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_1"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="3 Min Iso with bridge"/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="496"/>
+          <Option name="component_pos_y" type="double" value="146.41666666666666"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="3 Min Iso with bridge"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="3"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_2" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="636"/>
+        <Option name="component_pos_y" type="double" value="223.66666666666663"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 3 min No Bridge"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="498.1708526107072"/>
+      <Option name="component_pos_y" type="double" value="206.56278916060802"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_2"/>
+      <Option name="outputs" type="Map">
+        <Option name="3 Min Iso NO bridge " type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_2"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="3 Min Iso NO bridge "/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="497.8291473892928"/>
+          <Option name="component_pos_y" type="double" value="259.5627891606081"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="3 Min Iso NO bridge "/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="bridges_as_polygons"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="3"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_3" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="631.25"/>
+        <Option name="component_pos_y" type="double" value="444.4166666666667"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 5 min No Bridge"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="510.75"/>
+      <Option name="component_pos_y" type="double" value="464"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_3"/>
+      <Option name="outputs" type="Map">
+        <Option name="5 Min Iso NO bridge " type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_3"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="5 Min Iso NO bridge "/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="511"/>
+          <Option name="component_pos_y" type="double" value="532"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="5 Min Iso NO bridge "/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="bridges_as_polygons"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="5"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_4" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="631.25"/>
+        <Option name="component_pos_y" type="double" value="443.1666666666667"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 10 min No Bridge"/>
+      <Option name="component_height" type="double" value="34.35810810810811"/>
+      <Option name="component_pos_x" type="double" value="495.5"/>
+      <Option name="component_pos_y" type="double" value="778.5799549549549"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_4"/>
+      <Option name="outputs" type="Map">
+        <Option name="10 Min Iso NO bridge " type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_4"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="10 Min Iso NO bridge "/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="494"/>
+          <Option name="component_pos_y" type="double" value="831"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="10 Min Iso NO bridge "/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="bridges_as_polygons"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="10"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_5" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="687.5"/>
+        <Option name="component_pos_y" type="double" value="626.9166666666667"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 15 min No Bridge"/>
+      <Option name="component_height" type="double" value="30.54054054054052"/>
+      <Option name="component_pos_x" type="double" value="498.25"/>
+      <Option name="component_pos_y" type="double" value="1055.7297297297298"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_5"/>
+      <Option name="outputs" type="Map">
+        <Option name="15 Min Iso NO bridge " type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_5"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="15 Min Iso NO bridge "/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="503.7298959705213"/>
+          <Option name="component_pos_y" type="double" value="1124.17769466592"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="15 Min Iso NO bridge "/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="bridges_as_polygons"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="15"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_6" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="757.5"/>
+        <Option name="component_pos_y" type="double" value="499.4166666666667"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 5 min With Bridge"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="508.75"/>
+      <Option name="component_pos_y" type="double" value="362.5"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_6"/>
+      <Option name="outputs" type="Map">
+        <Option name="5 Min Iso with bridge " type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_6"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="5 Min Iso with bridge "/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="507.6407496825948"/>
+          <Option name="component_pos_y" type="double" value="406.4411357811513"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="5 Min Iso with bridge "/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="5"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_7" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="722.5"/>
+        <Option name="component_pos_y" type="double" value="510.6666666666667"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 10 min With Bridge"/>
+      <Option name="component_height" type="double" value="30.540540540540544"/>
+      <Option name="component_pos_x" type="double" value="509.25"/>
+      <Option name="component_pos_y" type="double" value="647.7702702702702"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_7"/>
+      <Option name="outputs" type="Map">
+        <Option name="10 Min Iso with Bridge" type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_7"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="10 Min Iso with Bridge"/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="504"/>
+          <Option name="component_pos_y" type="double" value="696"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="10 Min Iso with Bridge"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="10"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="ORS Tools:isochrones_from_layer_8" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="ORS Tools:isochrones_from_layer"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="825"/>
+        <Option name="component_pos_y" type="double" value="580.6666666666667"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Isochr 15 min With Bridge"/>
+      <Option name="component_height" type="double" value="30.540540540540547"/>
+      <Option name="component_pos_x" type="double" value="502.25"/>
+      <Option name="component_pos_y" type="double" value="925.5563063063064"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="ORS Tools:isochrones_from_layer_8"/>
+      <Option name="outputs" type="Map">
+        <Option name="15 Min Iso with bridge " type="Map">
+          <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_8"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="15 Min Iso with bridge "/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="506.8014197264391"/>
+          <Option name="component_pos_y" type="double" value="981.2004069297752"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="15 Min Iso with bridge "/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT_AVOID_BORDERS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_COUNTRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_AVOID_FEATURES"/>
+        <Option name="INPUT_AVOID_POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="INPUT_METRIC" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_POINT_LAYER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="amenity_category2"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROFILE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_PROVIDER" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RANGES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="15"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:countpointsinpolygon_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:countpointsinpolygon"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1288"/>
+        <Option name="component_pos_y" type="double" value="352.99999999999994"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Count points 3 min in newly covered areas"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="1168.487975742367"/>
+      <Option name="component_pos_y" type="double" value="166.41457549142615"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:countpointsinpolygon_1"/>
+      <Option name="outputs" type="Map">
+        <Option name="Counted_ &quot;Amenity&quot;_3" type="Map">
+          <Option name="child_id" type="QString" value="native:countpointsinpolygon_1"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="Counted_ &quot;Amenity&quot;_3"/>
+          <Option name="component_height" type="double" value="32.870457494894794"/>
+          <Option name="component_pos_x" type="double" value="1471.593431017016"/>
+          <Option name="component_pos_y" type="double" value="166.8385664870376"/>
+          <Option name="component_width" type="double" value="207.0565087972402"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="Counted_ &quot;Amenity&quot;_3"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="CLASSFIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="NUMPOINTS"/>
+          </Option>
+        </Option>
+        <Option name="POINTS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="point_layer_buildings"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="native:symmetricaldifference_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="WEIGHT" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:countpointsinpolygon_2" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:countpointsinpolygon"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1382.012024257633"/>
+        <Option name="component_pos_y" type="double" value="561.5854245085739"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Count points 5 min in newly covered areas"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="1151.25"/>
+      <Option name="component_pos_y" type="double" value="387.5"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:countpointsinpolygon_2"/>
+      <Option name="outputs" type="Map">
+        <Option name="Counted_ &quot;Amenity&quot;_5" type="Map">
+          <Option name="child_id" type="QString" value="native:countpointsinpolygon_2"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="Counted_ &quot;Amenity&quot;_5"/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="1450.432383051531"/>
+          <Option name="component_pos_y" type="double" value="406.7162693868864"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="Counted_ &quot;Amenity&quot;_5"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="CLASSFIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="NUMPOINTS"/>
+          </Option>
+        </Option>
+        <Option name="POINTS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="point_layer_buildings"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="native:symmetricaldifference_4"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="WEIGHT" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:countpointsinpolygon_3" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:countpointsinpolygon"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1398.262024257633"/>
+        <Option name="component_pos_y" type="double" value="621.5854245085739"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Count points 10 min in newly covered areas"/>
+      <Option name="component_height" type="double" value="38.17567567567569"/>
+      <Option name="component_pos_x" type="double" value="1126"/>
+      <Option name="component_pos_y" type="double" value="774.1261261261261"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:countpointsinpolygon_3"/>
+      <Option name="outputs" type="Map">
+        <Option name="Counted_ &quot;Amenity&quot;_10" type="Map">
+          <Option name="child_id" type="QString" value="native:countpointsinpolygon_3"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="Counted_ &quot;Amenity&quot;_10"/>
+          <Option name="component_height" type="double" value="30.540540540540547"/>
+          <Option name="component_pos_x" type="double" value="1437.25"/>
+          <Option name="component_pos_y" type="double" value="759.1103603603603"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="Counted_ &quot;Amenity&quot;_10"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="CLASSFIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="NUMPOINTS"/>
+          </Option>
+        </Option>
+        <Option name="POINTS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="point_layer_buildings"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="native:symmetricaldifference_2"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="WEIGHT" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:countpointsinpolygon_4" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:countpointsinpolygon"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1439.512024257633"/>
+        <Option name="component_pos_y" type="double" value="905.3354245085739"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Count points 15 min in newly covered areas"/>
+      <Option name="component_height" type="double" value="30.54054054054052"/>
+      <Option name="component_pos_x" type="double" value="1143.5"/>
+      <Option name="component_pos_y" type="double" value="961.186936936937"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:countpointsinpolygon_4"/>
+      <Option name="outputs" type="Map">
+        <Option name="Counted_ &quot;Amenity&quot;_15" type="Map">
+          <Option name="child_id" type="QString" value="native:countpointsinpolygon_4"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="Counted_ &quot;Amenity&quot;_15"/>
+          <Option name="component_height" type="double" value="44.67504450914899"/>
+          <Option name="component_pos_x" type="double" value="1443.5445307336417"/>
+          <Option name="component_pos_y" type="double" value="951.015671983947"/>
+          <Option name="component_width" type="double" value="190.28767349636473"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="System"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="Counted_ &quot;Amenity&quot;_15"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="CLASSFIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="NUMPOINTS"/>
+          </Option>
+        </Option>
+        <Option name="POINTS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="point_layer_buildings"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="POLYGONS" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="native:symmetricaldifference_3"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="WEIGHT" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:symmetricaldifference_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:symmetricaldifference"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1068"/>
+        <Option name="component_pos_y" type="double" value="240.33333333333331"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Symmetrical difference 3 min"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="873"/>
+      <Option name="component_pos_y" type="double" value="164.08333333333331"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:symmetricaldifference_1"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_2"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY_FIELDS_PREFIX" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:symmetricaldifference_2" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:symmetricaldifference"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1148.75"/>
+        <Option name="component_pos_y" type="double" value="463.75"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Symmetrical difference 10 min"/>
+      <Option name="component_height" type="double" value="30.540540540540537"/>
+      <Option name="component_pos_x" type="double" value="832.25"/>
+      <Option name="component_pos_y" type="double" value="755.0382882882882"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:symmetricaldifference_2"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_4"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_7"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY_FIELDS_PREFIX" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:symmetricaldifference_3" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:symmetricaldifference"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1168.75"/>
+        <Option name="component_pos_y" type="double" value="570"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Symmetrical difference 15 min"/>
+      <Option name="component_height" type="double" value="30.540540540540576"/>
+      <Option name="component_pos_x" type="double" value="851"/>
+      <Option name="component_pos_y" type="double" value="965.0045045045044"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:symmetricaldifference_3"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_8"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_5"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY_FIELDS_PREFIX" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:symmetricaldifference_4" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:symmetricaldifference"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1153.75"/>
+        <Option name="component_pos_y" type="double" value="480"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Symmetrical difference 5 min"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="851.25"/>
+      <Option name="component_pos_y" type="double" value="398.75"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:symmetricaldifference_4"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_3"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="ORS Tools:isochrones_from_layer_6"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="OVERLAY_FIELDS_PREFIX" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues" type="Map">
+    <Option name="_min_building_count" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_building_count_2" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_building_count_3" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_building_count_4" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_no_bridge" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_no_bridge_2" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_no_bridge_3" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_no_bridge_4" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_with_bridge" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_with_bridge_2" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_with_bridge_3" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="_min_iso_with_bridge_4" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" type="QString" value="System"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" type="bool" value="true"/>
+          <Option name="type" type="int" value="1"/>
+          <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="all_bridges" type="QString" value="Zusammengef_hrt_c580dee7_af23_476b_b878_c8d5fb2ae5bc"/>
+    <Option name="amenity_category2" type="QString" value="bakeries_23db8f43_68bc_47c3_8896_97a59c816f16"/>
+    <Option name="buildings" type="QString" value="Buildings_Points_3857_69a13aa5_b43d_4707_9cde_46b9b054120b"/>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="internal_version" type="QString" value="Version2"/>
+  <Option name="modelVariables"/>
+  <Option name="model_group" type="QString" value=""/>
+  <Option name="model_name" type="QString" value="model- Creation of bar Chart"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="_min_iso_no_bridge" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="3 Min Iso NO bridge "/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_2"/>
+        <Option name="_modelChildOutputName" type="QString" value="3 Min Iso NO bridge "/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_no_bridge"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_no_bridge_2" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="5 Min Iso NO bridge "/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_3"/>
+        <Option name="_modelChildOutputName" type="QString" value="5 Min Iso NO bridge "/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_no_bridge_2"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_no_bridge_3" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="10 Min Iso NO bridge "/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_4"/>
+        <Option name="_modelChildOutputName" type="QString" value="10 Min Iso NO bridge "/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_no_bridge_3"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_no_bridge_4" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="15 Min Iso NO bridge "/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_5"/>
+        <Option name="_modelChildOutputName" type="QString" value="15 Min Iso NO bridge "/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_no_bridge_4"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_with_bridge" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="3 Min Iso with bridge"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_1"/>
+        <Option name="_modelChildOutputName" type="QString" value="3 Min Iso with bridge"/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_with_bridge"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_with_bridge_2" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="5 Min Iso with bridge "/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_6"/>
+        <Option name="_modelChildOutputName" type="QString" value="5 Min Iso with bridge "/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_with_bridge_2"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_with_bridge_3" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="10 Min Iso with Bridge"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_7"/>
+        <Option name="_modelChildOutputName" type="QString" value="10 Min Iso with Bridge"/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_with_bridge_3"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="_min_iso_with_bridge_4" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="15 Min Iso with bridge "/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="ORS Tools:isochrones_from_layer_8"/>
+        <Option name="_modelChildOutputName" type="QString" value="15 Min Iso with bridge "/>
+        <Option name="_modelChildProvider" type="QString" value="ORS Tools"/>
+      </Option>
+      <Option name="name" type="QString" value="_min_iso_with_bridge_4"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="amenity_category2" type="Map">
+      <Option name="data_types" type="List">
+        <Option type="int" value="0"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Amenity/ Category"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="amenity_category2"/>
+      <Option name="parameter_type" type="QString" value="vector"/>
+    </Option>
+    <Option name="bridges_as_polygons" type="Map">
+      <Option name="data_types" type="List">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Bridges as Polygons"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="bridges_as_polygons"/>
+      <Option name="parameter_type" type="QString" value="vector"/>
+    </Option>
+    <Option name="counted__amenity_10" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="2"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Counted_ &quot;Amenity&quot;_10"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="native:countpointsinpolygon_3"/>
+        <Option name="_modelChildOutputName" type="QString" value="Counted_ &quot;Amenity&quot;_10"/>
+        <Option name="_modelChildProvider" type="QString" value="native"/>
+      </Option>
+      <Option name="name" type="QString" value="counted__amenity_10"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="true"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="counted__amenity_15" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="2"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Counted_ &quot;Amenity&quot;_15"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="native:countpointsinpolygon_4"/>
+        <Option name="_modelChildOutputName" type="QString" value="Counted_ &quot;Amenity&quot;_15"/>
+        <Option name="_modelChildProvider" type="QString" value="native"/>
+      </Option>
+      <Option name="name" type="QString" value="counted__amenity_15"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="true"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="counted__amenity_3" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="2"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Counted_ &quot;Amenity&quot;_3"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="native:countpointsinpolygon_1"/>
+        <Option name="_modelChildOutputName" type="QString" value="Counted_ &quot;Amenity&quot;_3"/>
+        <Option name="_modelChildProvider" type="QString" value="native"/>
+      </Option>
+      <Option name="name" type="QString" value="counted__amenity_3"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="true"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="counted__amenity_5" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="2"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="System"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value="TEMPORARY_OUTPUT"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Counted_ &quot;Amenity&quot;_5"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" type="QString" value="native:countpointsinpolygon_2"/>
+        <Option name="_modelChildOutputName" type="QString" value="Counted_ &quot;Amenity&quot;_5"/>
+        <Option name="_modelChildProvider" type="QString" value="native"/>
+      </Option>
+      <Option name="name" type="QString" value="counted__amenity_5"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="true"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+    <Option name="point_layer_buildings" type="Map">
+      <Option name="data_types" type="List">
+        <Option type="int" value="0"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Point Layer &quot;Buildings&quot;"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="point_layer_buildings"/>
+      <Option name="parameter_type" type="QString" value="vector"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder" type="StringList">
+    <Option type="QString" value="amenity_category"/>
+  </Option>
+  <Option name="parameters" type="Map">
+    <Option name="amenity_category2" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="648.75"/>
+        <Option name="component_pos_y" type="double" value="15"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="amenity_category2"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="117.85322777101098"/>
+      <Option name="component_pos_y" type="double" value="295.877161997564"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="name" type="QString" value="amenity_category2"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+    <Option name="bridges_as_polygons" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="605"/>
+        <Option name="component_pos_y" type="double" value="15"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="bridges_as_polygons"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="115.8717621074273"/>
+      <Option name="component_pos_y" type="double" value="387.66138855054817"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="name" type="QString" value="bridges_as_polygons"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+    <Option name="point_layer_buildings" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="550"/>
+        <Option name="component_pos_y" type="double" value="15"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="point_layer_buildings"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="1168.043239951279"/>
+      <Option name="component_pos_y" type="double" value="73.82387332521316"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="name" type="QString" value="point_layer_buildings"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+  </Option>
+</Option>
