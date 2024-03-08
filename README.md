@@ -6,7 +6,7 @@ This repository contains the PDF and Data files that belong to the Bachelor Thes
 The Datasets consist of the Input Data, the Output Data as well as the Models used to accelerate computing processes.
 Datasets that consist of multiple Layers are packaged as gpkg file.
 
-[_] displays the name codifications of layer files.
+The codification of layer files is displayed as **"name of geopackage"**: ["codification of layers"]
 
 #### Input Layers :
 **Input Data_Amenity Point Layers**
@@ -28,12 +28,14 @@ Datasets that consist of multiple Layers are packaged as gpkg file.
 
 #### Models
 
+
+
 ### Data Description
 W - topical access ("With bridges")
 
-N - initial access (" No Bridges")
+N - initial access ("No Bridges")
 
-D - impact on access ("Difference that Bridges made")
+D - impact on access ("Difference that bridges make")
 
 3/ 5/ 10/ 15 -type of Threshold 
 
