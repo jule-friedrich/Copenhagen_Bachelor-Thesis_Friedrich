@@ -1,16 +1,16 @@
 # Evaluating the Impact of Bicycle Bridges on the X-Minute City concept in Copenhagen, Denmark
 
-This repository contains the PDF and Data files that belong to the Bachelor Thesis "Evaluating the Impact of Bicycle Bridges on the X-Minute City concept in Copenhagen, Denmark" written by Jule Friedrich (submitted March 2024).
+This repository contains the PDF and data files that belong to the Bachelor Thesis "Evaluating the Impact of Bicycle Bridges on the X-Minute City concept in Copenhagen, Denmark" written by Jule Friedrich (submitted March 2024).
 
 ### Data sets
-The Datasets consist of the Input Data, the Output Data as well as the Models used to accelerate computing processes.
-Datasets that consist of multiple Layers are packaged as gpkg file.
+The datasets consist of the input data, the output data, as well as the models used to accelerate computing processes.
+Datasets that consist of multiple layers are packaged as gpkg file.
 
 The codification of layer files is displayed as **"name of geopackage"**: ["codification of layers"]
 
 #### Input Layers :
 **Input Data_Amenity Point Layers**
-- Amenity Point Layers used to create isochrones ["Amenity types"_Points]
+- Amenity point layers used to create isochrones ["Amenity types"_points]
   
 **Input Data General**
 - Area of Interest
