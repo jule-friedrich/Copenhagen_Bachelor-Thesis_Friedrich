@@ -8,7 +8,7 @@ Datasets that consist of multiple shapefile layers are packaged as gpkg file.
 
 The codification of layer files is displayed as **"name of geopackage"**: ["codification of layers"]
 
-### Input Layers :
+### Input Layers
 **Input Data_Amenity Point Layers**
 - Amenity point layers used to create isochrones ["Amenity types"_points]
   
@@ -21,7 +21,7 @@ The codification of layer files is displayed as **"name of geopackage"**: ["codi
 - point layer _buildings_ [Buildings as Points within Area of Interest]
 - grid that consists of the residential cells within the area of interest [Grid_ Residential Cells within Area of Interest]
   
-### Output Layers (Results):
+### Output Layers (Results)
 - amenity based impact zone layers that contain the counted _building_ points.  **Counted Building Points Layers_Impact**: [Counted_amenity_threshold]
 - amenity based initial accesbility that contains the counted _building_ points. **Counted Building Points Layers_Initial Access**: ["amenity type" No brigde min "threshold"]
 - the final grid layers that display spatial distribution of initial, topical, and impacted accesibility. In the attribute tables the individual category grid layers are contained. **Grids Impact/Spatial/Topical**: [Grid_Initial/Topical/Impact_Threshold]
