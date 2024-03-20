@@ -32,8 +32,8 @@ The codification of layer files is displayed as **"name of geopackage"**: ["codi
 
 
 ### Data Description
-W - topical access ("With bridges")
-N - initial access ("No Bridges")
-D - impact on access ("Difference that bridges make")
-3/ 5/ 10/ 15 -type of Threshold 
+- W - topical access ("With bridges")
+- N - initial access ("No Bridges")
+- D - impact on access ("Difference that bridges make")
+- 3/ 5/ 10/ 15 -type of Threshold 
 
