@@ -9,10 +9,10 @@ Datasets that consist of multiple shapefile layers are packaged as gpkg file.
 The codification of layer files is displayed as **"name of geopackage"**: ["codification of layers"]
 
 ### Input Layers
-**Input Data_Amenity Point Layers**
+####Amenity Point Layers
 - Amenity point layers used to create isochrones ["Amenity types"_points]
   
-**Input Data General**
+####Input Data General
 - Area of Interest
 - Boundary Copenhagen Municipality
 - Bounding Box (used to extract amenity data)
