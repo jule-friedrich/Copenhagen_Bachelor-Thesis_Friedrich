@@ -27,7 +27,8 @@ The codification of layer files is displayed as **"name of geopackage"**: ["codi
 - the final grid layers that display spatial distribution of initial, topical, and impacted accesibility. In the attribute tables the individual category grid layers are contained. **Grids Impact/Spatial/Topical**: [Grid_Initial/Topical/Impact_Threshold]
 
 #### Models
-
+- The model used to create isocrones, symmetrical differences and count of buildings within impact zones [Model_ Creation of Isochrones and Counting of Buildings in Symmetrical Difference]
+- The model used to create final grids by joining category layers [Model_Creation of final Grids by spatially joining Category Layers]
 
 
 ### Data Description
