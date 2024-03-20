@@ -4,7 +4,7 @@ This repository contains the PDF as well as the data files that were used or cre
 
 ## Data sets
 The datasets consist of the input data, the output data, as well as the models used to accelerate computing processes.
-Datasets that consist of multiple shapefile layers are packaged as gpkg file.
+Datasets that consist of multiple shapefile layers were packaged as gpkg file.
 
 The codification of layer files is displayed as **"name of geopackage"**: ["codification of layers"]
 
